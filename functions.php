@@ -83,6 +83,7 @@ require 'base/plugins/update/plugin-update-checker.php';
 $ExampleUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'https://raw.githubusercontent.com/refky21/umb/master/info.json',
 	__FILE__
+
 );
 
 //Here's how you can add query arguments to the URL.
