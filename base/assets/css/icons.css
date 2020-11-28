@@ -1,0 +1,119 @@
+/*#adminmenuwrap #menu-posts .wp-menu-image.dashicons-before:before,*/
+#adminmenuwrap #menu-posts-about .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-testimoni .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-custom_sidebar .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-consortium .wp-menu-image.dashicons-before:before,
+/*#adminmenuwrap #menu-posts-event .wp-menu-image.dashicons-before:before,*/
+#adminmenuwrap #menu-posts-property .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-team .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-process .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-contact .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-menu .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-slide .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-agenda .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-announcement .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-work .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-help .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-collection .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-product .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-client .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-building .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-listing .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-project .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-portfolio .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-exhibition .wp-menu-image.dashicons-before:before,
+#adminmenuwrap #menu-posts-essay .wp-menu-image.dashicons-before:before,
+#wpadminbar #wp-admin-bar-help .ab-icon:before{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 1;
+    font-family: FontAwesome;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    -webkit-transition: color .1s ease-in 0;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*#adminmenuwrap #menu-posts .wp-menu-image.dashicons-before:before{
+    content: "\f1ea";
+}*/
+#adminmenuwrap #menu-posts-about .wp-menu-image.dashicons-before:before{
+    content: "\f009";
+}
+#adminmenuwrap #menu-posts-testimoni .wp-menu-image.dashicons-before:before{
+    content: "\f086";
+}
+#adminmenuwrap #menu-posts-custom_sidebar .wp-menu-image.dashicons-before:before{
+    content: "\f0ca";
+}
+#adminmenuwrap #menu-posts-consortium .wp-menu-image.dashicons-before:before{
+    content: "\f1b3";
+}
+/*#adminmenuwrap #menu-posts-event .wp-menu-image.dashicons-before:before{
+    content: "\f073";
+}*/
+#adminmenuwrap #menu-posts-property .wp-menu-image.dashicons-before:before{
+    content: "\f0f7";
+}
+#adminmenuwrap #menu-posts-team .wp-menu-image.dashicons-before:before{
+    content: "\f007";
+}
+#adminmenuwrap #menu-posts-process .wp-menu-image.dashicons-before:before{
+    content: "\f085";
+}
+#adminmenuwrap #menu-posts-contact .wp-menu-image.dashicons-before:before{
+    content: "\f1d8";
+}
+#adminmenuwrap #menu-posts-menu .wp-menu-image.dashicons-before:before{
+    content: "\f0f5";
+}
+#adminmenuwrap #menu-posts-slide .wp-menu-image.dashicons-before:before{
+    content: "\f03e";
+}
+#adminmenuwrap #menu-posts-agenda .wp-menu-image.dashicons-before:before{
+    content: "\f073";
+}
+#adminmenuwrap #menu-posts-announcement .wp-menu-image.dashicons-before:before{
+    content: "\f05a";
+}
+#adminmenuwrap #menu-posts-work .wp-menu-image.dashicons-before:before{
+    content: "\f108";
+}
+#adminmenuwrap #menu-posts-collection .wp-menu-image.dashicons-before:before{
+    content: "\f03a";
+}
+#adminmenuwrap #menu-posts-product .wp-menu-image.dashicons-before:before{
+    content: "\f07a";
+}
+#adminmenuwrap #menu-posts-client .wp-menu-image.dashicons-before:before{
+    content: "\f0c0";
+}
+#adminmenuwrap #menu-posts-help .wp-menu-image.dashicons-before:before,
+#wpadminbar #wp-admin-bar-help .ab-icon:before{
+    content: "\f059";
+}
+#adminmenuwrap #menu-posts-building .wp-menu-image.dashicons-before:before{
+    content: "\f1ad";
+}
+#adminmenuwrap #menu-posts-listing .wp-menu-image.dashicons-before:before{
+    content: "\f1c0";
+}
+#adminmenuwrap #menu-posts-project .wp-menu-image.dashicons-before:before{
+    content: "\f275";
+}
+#adminmenuwrap #menu-posts-portfolio .wp-menu-image.dashicons-before:before{
+    content: "\f03e";
+}
+#adminmenuwrap #menu-posts-exhibition .wp-menu-image.dashicons-before:before{
+    content: "\f108";
+}
+#adminmenuwrap #menu-posts-essay .wp-menu-image.dashicons-before:before{
+    content: "\f0f6";
+}
+
