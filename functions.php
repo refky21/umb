@@ -76,9 +76,19 @@ function wpb_set_post_views($postID) {
 //To keep the count accurate, lets get rid of prefetching
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
 
-require 'base/plugin/update/plugin-update-checker.php';
-$MyUpdateChecker = PucFactory::buildUpdateChecker(
-    'https://example.com/path/to/metadata.json',
-    __FILE__,
-    'your-chosen-slug'
+
+
+//Use version 2.0 of the update checker.
+require 'base/plugins/update/plugin-update-checker.php';
+$ExampleUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://raw.githubusercontent.com/refky21/umb/master/info.json',
+	__FILE__
 );
+
+//Here's how you can add query arguments to the URL.
+function addSecretKey($query){
+	$query['secret'] = 'foo';
+	return $query;
+}
+$ExampleUpdateChecker->addQueryArgFilter('addSecretKey');
+
