@@ -75,3 +75,10 @@ function wpb_set_post_views($postID) {
 }
 //To keep the count accurate, lets get rid of prefetching
 remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head', 10, 0);
+
+require 'base/plugin/update/plugin-update-checker.php';
+$MyUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://example.com/path/to/metadata.json',
+    __FILE__,
+    'your-chosen-slug'
+);
